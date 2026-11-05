@@ -212,3 +212,21 @@ The controlled comparison showed a 30-percentage-point reduction in memory usage
 The results support an application-related explanation for the observed memory consumption, without establishing a hardware defect.
 
 **LAB-001 Status: Completed — Initial Performance Investigation.**
+
+## 11. Diagnostic Evidence
+
+### 11.1 Before Closing Google Chrome — 68% RAM
+
+![Task Manager showing 68% RAM usage](evidence/LAB-001-before-chrome-close.png.png)
+
+### 11.2 After Closing Google Chrome — 38% RAM
+
+![Task Manager showing 38% RAM usage](evidence/LAB-001-after-chrome-close.png.png)
+
+### Evidence Summary
+
+The screenshots show Windows Task Manager before and after closing Google Chrome.
+
+System memory utilisation decreased from 68% to 38%, representing a reduction of 30 percentage points.
+
+These observations support the conclusion that the browser contributed substantially to memory consumption. Other changes in background activity may also have influenced the results.
