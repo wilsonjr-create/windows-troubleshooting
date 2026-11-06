@@ -103,3 +103,26 @@ Further investigation would be appropriate if the errors recur alongside observa
 - Functional troubleshooting
 - Evidence-based technical conclusions
 - IT support documentation
+
+- ## 10. Diagnostic Evidence
+
+### 10.1 Windows Event Viewer — System Log
+![System events](evidence/LAB-003/LAB-003-event-viewer.png)
+
+### 10.2 Event 7000 — GameDVR Startup Failure
+![Event 7000](evidence/LAB-003/LAB-003-event-7000.png)
+
+### 10.3 Event 7009 — Service Timeout
+![Event 7009](evidence/LAB-003/LAB-003-event-7009.png)
+
+### 10.4 Event 10005 — DistributedCOM Error
+![Event 10005](evidence/LAB-003/LAB-003-event-10005.png)
+
+### 10.5 Event 10010 — DCOM Registration Timeout
+![Event 10010](evidence/LAB-003/LAB-003-event-10010.png)
+
+### 10.6 GameDVR Service Properties
+![GameDVR service status](evidence/LAB-003/LAB-003-service-status.png)
+
+### Evidence Summary
+The screenshots document the Windows event log investigation and the observed GameDVR service configuration. Functional recording tests were completed successfully, as described in Section 6.
